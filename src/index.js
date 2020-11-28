@@ -9,7 +9,7 @@
 import _videojs from 'video.js'
 import videoPlayer from './player.vue'
 
-const videojs = window.videojs || _videojs
+const videojs = _videojs
 const install = function (Vue, config) {
   if (config) {
     if (config.options) {

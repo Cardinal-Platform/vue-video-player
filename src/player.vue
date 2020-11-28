@@ -9,7 +9,7 @@
 <script>
   // lib
   import _videojs from 'video.js'
-  const videojs = window.videojs || _videojs
+  const videojs = _videojs
 
   // pollfill
   if (typeof Object.assign != 'function') {
